@@ -36,3 +36,7 @@ spam
 * templates
 * app.py
 * requirements.txt
+
+## Author
+
+Pranesh GN
