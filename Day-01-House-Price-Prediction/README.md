@@ -18,5 +18,6 @@ data/
 models/
 src/
 
-Author:
-Pranesh
+## Author
+
+Pranesh GN
