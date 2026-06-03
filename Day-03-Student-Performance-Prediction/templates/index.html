@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Score Predictor</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.container{
+    width:420px;
+    padding:35px;
+    border-radius:20px;
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.2);
+    box-shadow:0 8px 32px rgba(0,0,0,0.25);
+    text-align:center;
+}
+
+.container h1{
+    color:white;
+    margin-bottom:25px;
+    font-size:28px;
+}
+
+.subtitle{
+    color:rgba(255,255,255,0.8);
+    margin-bottom:20px;
+    font-size:14px;
+}
+
+.input-group{
+    margin-bottom:18px;
+}
+
+input{
+    width:100%;
+    padding:14px;
+    border:none;
+    outline:none;
+    border-radius:12px;
+    background:rgba(255,255,255,0.2);
+    color:white;
+    font-size:16px;
+}
+
+input::placeholder{
+    color:rgba(255,255,255,0.8);
+}
+
+input:focus{
+    background:rgba(255,255,255,0.3);
+    transition:0.3s;
+    transform:scale(1.02);
+}
+
+button{
+    width:100%;
+    padding:14px;
+    border:none;
+    border-radius:12px;
+    background:white;
+    color:#764ba2;
+    font-size:17px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:translateY(-2px);
+    background:#f5f5f5;
+}
+
+.result{
+    margin-top:20px;
+    padding:15px;
+    border-radius:12px;
+    background:rgba(255,255,255,0.2);
+    color:white;
+    font-size:20px;
+    font-weight:600;
+}
+
+.footer{
+    margin-top:15px;
+    color:rgba(255,255,255,0.7);
+    font-size:12px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🎓 Student Score Predictor</h1>
+
+    <p class="subtitle">
+        Predict student performance using Machine Learning
+    </p>
+
+    <form action="/predict" method="POST">
+
+        <div class="input-group">
+            <input
+                type="number"
+                step="0.1"
+                name="StudyHours"
+                placeholder="📚 Study Hours"
+                required>
+        </div>
+
+        <div class="input-group">
+            <input
+                type="number"
+                step="0.1"
+                name="Attendance"
+                placeholder="📅 Attendance (%)"
+                required>
+        </div>
+
+        <div class="input-group">
+            <input
+                type="number"
+                name="Assignments"
+                placeholder="📝 Assignments Completed"
+                required>
+        </div>
+
+        <button type="submit">
+            Predict Score
+        </button>
+
+    </form>
+
+    {% if prediction %}
+    <div class="result">
+        Predicted Score: {{ prediction }}
+    </div>
+    {% endif %}
+
+</div>
+
+</body>
+</html>
