@@ -1,0 +1,134 @@
+Movie,Genre
+Avengers,Action
+Iron Man,Action
+Captain America,Action
+Thor,Action
+Batman,Action
+Superman,Action
+John Wick,Action
+Mission Impossible,Action
+Mad Max Fury Road,Action
+The Dark Knight,Action
+Gladiator,Action
+Top Gun Maverick,Action
+
+Titanic,Romance
+The Notebook,Romance
+La La Land,Romance
+Me Before You,Romance
+A Walk to Remember,Romance
+Pride and Prejudice,Romance
+The Vow,Romance
+Dear John,Romance
+Before Sunrise,Romance
+Notting Hill,Romance
+
+Frozen,Animation
+Toy Story,Animation
+Finding Nemo,Animation
+Kung Fu Panda,Animation
+Shrek,Animation
+Moana,Animation
+Coco,Animation
+Inside Out,Animation
+Cars,Animation
+The Lion King,Animation
+
+Interstellar,Sci-Fi
+Inception,Sci-Fi
+The Martian,Sci-Fi
+Gravity,Sci-Fi
+Avatar,Sci-Fi
+Dune,Sci-Fi
+Blade Runner 2049,Sci-Fi
+Star Wars,Sci-Fi
+The Matrix,Sci-Fi
+Arrival,Sci-Fi
+
+The Conjuring,Horror
+Insidious,Horror
+Annabelle,Horror
+The Nun,Horror
+Hereditary,Horror
+IT,Horror
+The Ring,Horror
+A Quiet Place,Horror
+The Exorcist,Horror
+Smile,Horror
+
+The Hangover,Comedy
+Superbad,Comedy
+21 Jump Street,Comedy
+Ted,Comedy
+Free Guy,Comedy
+Jumanji,Comedy
+We're the Millers,Comedy
+The Mask,Comedy
+Dumb and Dumber,Comedy
+Central Intelligence,Comedy
+
+Sherlock Holmes,Mystery
+Knives Out,Mystery
+Murder on the Orient Express,Mystery
+Gone Girl,Mystery
+The Girl with the Dragon Tattoo,Mystery
+Prisoners,Mystery
+Shutter Island,Mystery
+Zodiac,Mystery
+The Prestige,Mystery
+Se7en,Mystery
+
+The Godfather,Crime
+Goodfellas,Crime
+Scarface,Crime
+The Irishman,Crime
+Casino,Crime
+Pulp Fiction,Crime
+The Departed,Crime
+Heat,Crime
+Donnie Brasco,Crime
+American Gangster,Crime
+
+The Shawshank Redemption,Drama
+Forrest Gump,Drama
+The Green Mile,Drama
+Fight Club,Drama
+Whiplash,Drama
+Joker,Drama
+A Beautiful Mind,Drama
+The Pursuit of Happyness,Drama
+12 Years a Slave,Drama
+The Social Network,Drama
+
+Harry Potter and the Sorcerer's Stone,Fantasy
+Harry Potter and the Chamber of Secrets,Fantasy
+The Lord of the Rings The Fellowship of the Ring,Fantasy
+The Lord of the Rings The Two Towers,Fantasy
+The Lord of the Rings The Return of the King,Fantasy
+The Hobbit,Fantasy
+Fantastic Beasts,Fantasy
+Chronicles of Narnia,Fantasy
+Percy Jackson,Fantasy
+Pan's Labyrinth,Fantasy
+
+Saving Private Ryan,War
+1917,War
+Dunkirk,War
+Hacksaw Ridge,War
+Fury,War
+Black Hawk Down,War
+The Pianist,War
+Letters from Iwo Jima,War
+Midway,War
+Pearl Harbor,War
+
+Rocky,Sports
+Creed,Sports
+Ford v Ferrari,Sports
+Rush,Sports
+Moneyball,Sports
+Remember the Titans,Sports
+Coach Carter,Sports
+The Blind Side,Sports
+Million Dollar Baby,Sports
+Invictus,Sports
